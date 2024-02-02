@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div8 > div{
+    width: 180px;
+    height: 150px;
+    background-color: burlywood;
+    display: flex;
+    margin: 10px;
+
+}
+.div2 > div{
+    width: 180px;
+    height: 150px;
+    background-color: burlywood;
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.div8{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 10vw;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.di1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(51, 19, 167);
+    margin: px 30px;
+    transition:1s;
+}
+.pa{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(6, 18, 13);
+    margin: 25px 40px;
+}
+.a:hover{
+    transform: rotate(45deg);
+}
+.b:hover{
+    transform: scale( 1 , 0.75 );
+}
+.c:hover{
+    transform: scale( 0.75 , 1 );
+}
+.d:hover{
+    transform: scale( 2.5 , 2.5 );
+}
+.e:hover{
+    transform: scale( 2 , 1 );
+}
+.f:hover{
+    transform: scale( 1 , 2 );
+}
+.g:hover{
+    transform: skew( 50deg , 0deg );
+}
+.h:hover{
+    transform: skew( 0deg , 50deg );
+}
+.i:hover{
+    transform: translate( 50px , 50px );
+}
+.j:hover{
+    transform: translate( 50px , 0px );
+}
+.k:hover{
+    transform: translate( 0px , 50px );
+}
+.l:hover{
+    transform: skewY(50deg) translate(20px,-35px) scale(1.5, 1.9);
+}
+.m:hover{
+      transform-origin: center;
+  transform: perspective(300px) rotateX(65deg) scale(1, 1.90) ;
+}
+.n:hover{
+    transform-origin: 50% 50%;
+    transform: perspective(400px) rotateY(60deg) scale(2, 1) ;
+    
+}
+.o:hover{
+    transform-origin: top right;
+    transform: rotatez(45deg);
+}
+.p:hover{
+    transform-origin: bottom left;
+    transform: rotatez(45deg);
+}
+.q:hover{
+    transform-origin: bottom;
+    transform: perspective(400px) rotateX(45deg) scale(1, 1.20) ;
+}
+.r:hover{
+    transform-origin: top;
+  transform: perspective(400px) rotateX(65deg)  ;
+}
+.s:hover{
+    transform-origin: left;
+    transform: perspective(400px) rotateY(50deg) ;
+}
+.t:hover{
+    transform-origin: right;
+    transform: perspective(400px) rotateY(50deg) ;
+}
+.u:hover{
+    transform-origin: top right;
+    transform: scale(2,2) ;
+}
+.x:hover{
+    transform-origin: left bottom;
+    transform: scale(2,2) ;
+}
+.y:hover{
+    transform-origin: right;
+    transform: scaleX(2) ;
+}
+.z:hover{
+    transform-origin: left;
+    transform: scalex(2);
+}
+.z1:hover{
+    transform-origin: top;
+    transform: scaley(2);
+}
+.z2:hover{
+    transform-origin: bottom;
+    transform: scaley(2);
+}
